@@ -13,7 +13,6 @@ ENV JVM_OPTS -Xmx2048M -Xms1024M
 RUN mkdir -p ${SPIGOT_HOME} &&\
     mkdir -p ${SPIGOT_HOME}/plugins
 
-COPY eula.txt ${SPIGOT_HOME}/eula.txt
 COPY cmd.sh /cmd.sh
 COPY server_init.sh /opt/mcdaemon.d/server_init.sh
 COPY server_run.sh  /opt/mcdaemon.d/server_run.sh
