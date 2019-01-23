@@ -14,4 +14,4 @@ fi
 
 cd $SPIGOT_HOME
 
-su -c "/opt/mcdaemon.d/server_run.sh java $JVM_OPTS -jar spigot.jar"
+/opt/mcdaemon.d/server_run.sh java $JVM_OPTS -jar spigot.jar
