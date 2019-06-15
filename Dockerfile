@@ -7,7 +7,7 @@ RUN apk upgrade --update && \
     update-ca-certificates
 
 ENV SPIGOT_HOME /opt/mc
-ENV MC_REV latest
+ARG MC_REV=latest
 ENV JVM_OPTS -Xmx2048M -Xms1024M
 
 RUN mkdir -p ${SPIGOT_HOME} &&\
