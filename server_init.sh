@@ -16,7 +16,7 @@ cp /tmp/spigot.jar $SPIGOT_HOME/spigot.jar
 if [ ! -f $SPIGOT_HOME/restart.sh ]; then
     echo "#!/bin/bash" > $SPIGOT_HOME/restart.sh
     echo "echo 1 > /tmp/spigot-restart.wanted" >> $SPIGOT_HOME/restart.sh
-    chmod +x /tmp/spigot-restart.wanted
+    chmod +x $SPIGOT_HOME/restart.sh
 fi
 
 cd $SPIGOT_HOME
