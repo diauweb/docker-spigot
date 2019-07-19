@@ -1,4 +1,4 @@
-FROM openjdk:8u181-alpine
+FROM openjdk:8u212-alpine
 LABEL maintainer="xd@northme.com"
 
 # Install dependencies
