@@ -1,5 +1,5 @@
 FROM openjdk:8u212-alpine
-LABEL maintainer="xd@northme.com"
+LABEL maintainer="xd@theliquid.group"
 
 # Install dependencies
 RUN apk upgrade --update && \
